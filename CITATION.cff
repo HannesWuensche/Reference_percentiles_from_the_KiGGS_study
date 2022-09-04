@@ -5,6 +5,23 @@ title: >-
   children and adolescents – Data from the KiGGS study
 date-released: '2022-09-04'
 keywords:
+  - Carotid Intima-Media Thickness
+  - Carotis-Intima-Media-Dicke
+  - Vascular Stiffness
+  - Arterielle Steifigkeit
+  - Ultrasonography
+  - Ultraschalldiagnostik
+  - Atherosclerosis
+  - Atherosklerose
+  - Primary Prevention
+  - Primaerpraevention
+  - Risk Factors
+  - Risikofaktoren
+  - Adolescent
+  - Jugendliche
+  - Child
+  - Reference Values
+  - Referenzwerte
   - RKI
   - KiGGS
   - Germany
@@ -13,7 +30,7 @@ message: Cite me!
 url: >-
   https://www.github.io/robert-koch-institut/Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_–_Data_from_the_KiGGS_study
 licence: CC-BY-4.0
-doi: 10.5281/zenodo.7047618
+doi: 10.5072/zenodo.1098499
 authors:
   - family-names: Büschges
     given-names: Julia
