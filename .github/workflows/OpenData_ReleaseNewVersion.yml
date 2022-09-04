@@ -6,7 +6,7 @@ on:
       - '[0-9][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]_pre'
   
 env:
-  zenodo_deposition_id: 1098482
+  zenodo_deposition_id: 1097599
   zenodo_server: 'https://sandbox.zenodo.org'
   whitelist_replace_doi: .github/workflows/.zenodo_whitelist_replace_doi
   whitelist_uploads: .github/workflows/.zenodo_whitelist_uploads
@@ -76,7 +76,7 @@ jobs:
              mv md2pdf/Readme.pdf "[Documentation]_Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_–_Data_from_the_KiGGS_study.pdf"
                     
       - name: Publish Data and Metadata on Zenodo
-        uses: kykrueger/zenodo-publish@v1.0.4
+        uses: kykrueger/zenodo-publish@v1.0.5
         with:
           zenodo_metadata: Metadaten/zenodo.json
           whitelist_uploads: .github/workflows/.zenodo_whitelist_uploads
