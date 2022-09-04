@@ -1,63 +1,67 @@
- {
- 	"title": "Reference percentiles for carotid measures of subclinical atherosclerosis in children and adolescents – Data from the KiGGS study",
- 	"description": "This dataset presents reference centile data for carotid intima-media thickness as well as four carotid stiffness parameters. Further details can be found in previously published articles. <br/>The reference percentiles presented in this publication are based on data from the German Health Interview and Examination Survey for Children and Adolescents 2003-2006 (KiGGS). A number of more detailed papers have been published on individual parameters. KiGGS started as a cross-sectional study conducted between 2003 and 2006 which was based on a nationally representative sample and aimed at obtaining comprehensive data on the health of children and adolescents aged 0 to 17 years living in Germany. Detailed information on study design and conduct has been published elsewhere (see the documentation). 11 years later, KiGGS Wave 2 (2014-2017) was conducted as an interview and examination survey. Carotid sonography was attempted in 4,798 participants of the KiGGS cohort aged 14 to 28 years. Carotid intima-media thickness (CIMT) was successfully measured in 4,709 participants. Measures of carotid stiffness could be calculated for 4,305 participants.<br/>Carotid sonography was attempted at follow-up (KiGGS2) in all 4,798 participants of the KiGGS cohort aged 14 to 28 years. Carotid intima-media thickness (CIMT) was successfully measured in 4,709 participants. Reference centiles for the distensibility coefficient, stiffness index ß, Young's elastic modulus and Peterson's elastic modulus were computed using data on 4,305 adolescents and young adults aged 14 to 28.",
- 	"creators": [{
- 		"name": "Büschges, Julia",
- 		"orcid": "0000-0002-5669-2427",
- 		"affiliation": "Robert Koch-Institut"
- 	}, {
- 		"name": "Schaffrath Rosario, Angelika",
- 		"orcid": "0000-0001-7777-8070",
- 		"affiliation": "Robert Koch-Institut"
- 	}, {
- 		"name": "Sarganas Margolis, Giselle",
- 		"orcid": "0000-0002-6296-3174",
- 		"affiliation": "Robert Koch-Institut"
- 	}, {
- 		"name": "Königstein, Karsten",
- 		"orcid": "0000-0002-2994-8570",
- 		"affiliation": "Robert Koch-Institut"
- 	}, {
- 		"name": "Schweizer, Dieter",
- 		"orcid": "",
- 		"affiliation": "Robert Koch-Institut"
- 	}, {
- 		"name": "Schmidt-Trucksäss, Arno",
- 		"orcid": "0000-0002-4662-3911",
- 		"affiliation": "Robert Koch-Institut"
- 	}, {
- 		"name": "Neuhauser, Hannelore",
- 		"orcid": "0000-0002-6605-6221",
- 		"affiliation": "Robert Koch-Institut"
- 	}],
- 	"contributors": [{
- 		"name": "Wuensche, Hannes",
- 		"affiliation": "Robert Koch-Institut",
- 		"orcid": "0000-0002-8837-0326",
- 		"type": "DataCurator"
- 	}],
- 	"keywords": ["Carotid Intima-Media Thickness", "Carotis-Intima-Media-Dicke", "Vascular Stiffness", "Arterielle Steifigkeit", "Ultrasonography", "Ultraschalldiagnostik", "Atherosclerosis", "Atherosklerose", "Primary Prevention", "Primaerpraevention", "Risk Factors", "Risikofaktoren", "Adolescent", "Jugendliche", "Child", "Reference Values", "Referenzwerte", "RKI", "KiGGS", "Germany", "Deutschland"],
- 	"publication_date": "2022-09-04T14:18:29.230Z",
- 	"upload_type": "dataset",
- 	"access_right": "open",
- 	"license": "cc-by",
- 	"language": "deu",
- 	"version": "2022-09-04",
- 	"subjects": [{
- 			"term": "Gesundheitsberichterstattung",
- 			"identifier": "info:ddc/22/de//614.42"
- 		},
- 		{
- 			"term": "Epidemiologie",
- 			"identifier": "info:ddc/22/de//614.4"
- 		},
- 		{
- 			"term": "Public health surveillance",
- 			"identifier": "info:ddc/22/eng//614.42"
- 		},
- 		{
- 			"term": "Epidemiology",
- 			"identifier": "info:ddc/22/eng//614.4"
- 		}
- 	]
- }
+{
+  "title": "SARS-CoV-2-Nowcasting und -R-Schaetzung",
+  "description": "Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für Wirksamkeit/Notwendigkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen und die Kapazitäten von Intensivbetten nicht zu überlasten.",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
+  "creators": [
+    {
+      "name": "an der Heiden, Matthias",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0001-5863-4549"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wuensche, Hannes",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-8837-0326",
+      "type": "DataCurator"
+    },
+    {
+      "name": "Benzler, Justus",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-7470-0849",
+      "type": "DataCurator"
+    }
+  ],
+  "keywords": [
+    "COVID-19",
+    "SARS-CoV-2",
+    "Infektion",
+    "Basis-Reproduktionszahl",
+    "Vorhersage",
+    "Deutschland",
+    "Infections",
+    "Forecasting",
+    "Basic Reproduction Number",
+    "Germany",
+    "RKI"
+  ],
+  "subjects": [
+    {
+      "term": "Gesundheitsberichterstattung",
+      "identifier": "info:ddc/22/de//614.42"
+    },
+    {
+      "term": "Epidemiologie",
+      "identifier": "info:ddc/22/de//614.4"
+    },
+    {
+      "term": "Public health surveillance",
+      "identifier": "info:ddc/22/eng//614.42"
+    },
+    {
+      "term": "Epidemiology",
+      "identifier": "info:ddc/22/eng//614.4"
+    }
+  ],
+  "publication_date": "2022-09-04T04:32:05+02:00",
+  "version": "2022-09-04"
+}
