@@ -6,7 +6,7 @@ on:
       - '[0-9][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]_pre'
   
 env:
-  zenodo_deposition_id: 1095463
+  zenodo_deposition_id: 1098503
   zenodo_server: 'https://sandbox.zenodo.org'
   whitelist_replace_doi: .github/workflows/.zenodo_whitelist_replace_doi
   whitelist_uploads: .github/workflows/.zenodo_whitelist_uploads
