@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+type: dataset
+title: >-
+  Reference percentiles for carotid measures of subclinical atherosclerosis in
+  children and adolescents – Data from the KiGGS study
+date-released: '2022-09-04'
+keywords:
+  - RKI
+  - KiGGS
+  - Germany
+  - Deutschland
+message: Cite me!
+url: >-
+  https://www.github.io/robert-koch-institut/Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_–_Data_from_the_KiGGS_study
+licence: CC-BY-4.0
+doi: 10.5281/zenodo.7047618
+authors:
+  - family-names: Büschges
+    given-names: Julia
+    orcid: https://orcid.org/0000-0002-5669-2427
+    affiliation: Robert Koch-Institut
+  - family-names: Schaffrath Rosario
+    given-names: Angelika
+    orcid: https://orcid.org/0000-0001-7777-8070
+    affiliation: Robert Koch-Institut
+  - family-names: Sarganas Margolis
+    given-names: Giselle
+    orcid: https://orcid.org/0000-0002-6296-3174
+    affiliation: Robert Koch-Institut
+  - family-names: Königstein
+    given-names: Karsten
+    orcid: https://orcid.org/0000-0002-2994-8570
+    affiliation: Robert Koch-Institut
+  - family-names: Schweizer
+    given-names: Dieter
+    affiliation: Robert Koch-Institut
+  - family-names: Schmidt-Trucksäss
+    given-names: Arno
+    orcid: https://orcid.org/0000-0002-4662-3911
+    affiliation: Robert Koch-Institut
+  - family-names: Neuhauser
+    given-names: Hannelore
+    orcid: https://orcid.org/0000-0002-6605-6221
+    affiliation: Robert Koch-Institut
