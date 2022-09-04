@@ -42,6 +42,7 @@
 	"access_right": "open",
 	"license": "cc-by",
 	"language": "deu",
+	"version": "2022-09-04",
 	"subjects": [{
 			"term": "Gesundheitsberichterstattung",
 			"identifier": "info:ddc/22/de//614.42"
