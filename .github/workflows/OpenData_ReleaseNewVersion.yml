@@ -21,7 +21,7 @@ jobs:
     
     steps:
       - name: Create new draft of Zenodo deposition and replace DOI
-        uses: HannesWuensche/zenodo-new-version@e0dd7918d62495e8d294984293c90b0dd544882fc 
+        uses: HannesWuensche/zenodo-new-version@e0dd7918d62495e8d294984293c90b0dd544882f
         id: retrieve_dois
         with:
          zenodo_deposition_id: ${{ env.zenodo_deposition_id }}
