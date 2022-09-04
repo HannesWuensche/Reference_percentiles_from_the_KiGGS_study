@@ -30,7 +30,7 @@ message: Cite me!
 url: >-
   https://www.github.io/robert-koch-institut/Reference_percentiles_for_carotid_measures_of_subclinical_atherosclerosis_in_children_and_adolescents_–_Data_from_the_KiGGS_study
 licence: CC-BY-4.0
-doi: 10.5072/zenodo.1098499
+doi: 10.5072/zenodo.1098503
 authors:
   - family-names: Büschges
     given-names: Julia
