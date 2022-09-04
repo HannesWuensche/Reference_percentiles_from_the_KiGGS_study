@@ -6,14 +6,14 @@ on:
       - '[0-9][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]_pre'
   
 env:
-  zenodo_deposition_id: 1097599
+  zenodo_deposition_id: 1098486
   zenodo_server: 'https://sandbox.zenodo.org'
   whitelist_replace_doi: .github/workflows/.zenodo_whitelist_replace_doi
   whitelist_uploads: .github/workflows/.zenodo_whitelist_uploads
   
 jobs:
   new_zenodo_draft:
-    name: Create new draft of Zenodo deposition and replace DOI
+    name: Create new draft of Zenodo deposition and retrieve DOI
     runs-on: ubuntu-latest
     outputs:
       latest_doi: ${{ steps.retrieve_dois.outputs.latest_doi }}
@@ -21,7 +21,7 @@ jobs:
     
     steps:
       - name: Create new draft of Zenodo deposition and replace DOI
-        uses: HannesWuensche/zenodo-new-version@df3cad6024415f2a48635424630efb2426fe134c 
+        uses: HannesWuensche/zenodo-new-version@e0dd7918d62495e8d294984293c90b0dd544882fc 
         id: retrieve_dois
         with:
          zenodo_deposition_id: ${{ env.zenodo_deposition_id }}
@@ -78,7 +78,7 @@ jobs:
       - name: Publish Data and Metadata on Zenodo
         uses: kykrueger/zenodo-publish@v1.0.5
         with:
-          zenodo_metadata: Metadaten/zenodo.json
+          zenodo_metadata: Metadata/zenodo.json
           whitelist_uploads: .github/workflows/.zenodo_whitelist_uploads
           zenodo_deposition_id: ${{ env.zenodo_deposition_id }}
           zenodo_server: ${{ env.zenodo_server }}
